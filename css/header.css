@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400,400i,700');
+
+body {
+    background-color: beige;
+    font-family: Roboto;
+    margin: 0;
+}
+
+h1 {
+    background-color: darkred;
+    color: gold;
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul.navmenu {
+    background-color: brown;
+    font-weight: 300;    
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.navmenu li {
+    float: left;
+    height: 50px;
+}
+
+.navmenu li a {
+    color: white;
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navmenu li a:hover {
+    background-color: black;
+}

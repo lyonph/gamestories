@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400,400i,700');
+
+h6.sidemenu {
+    color: goldenrod;
+    font-size: 150%;
+    font-family: Pacifico;
+    position: fixed;
+    right: 100px;
+    top: 68px;
+}
+
+.sidemenu li a:link {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.sidemenu li a:visited {
+    color: purple;
+}
+
+.sidemenu li a:hover {
+    color: white;
+}
+
+.sidemenu li a:active {
+    color: gold;
+}
+
+ul.sidemenu {
+    align-content: center;
+    list-style: none;
+    position: fixed;
+    right: 30px;
+    top: 150px;
+}
+
+.sidemenu li {
+    background-color: goldenrod;
+    color: aliceblue;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    width: 250px;
+}
+
+.sidemenu li:hover {
+    background-color: darkred;
+}
